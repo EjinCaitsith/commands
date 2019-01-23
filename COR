@@ -133,3 +133,27 @@
 			elseif command == 'bc2' then
                 send_command('input /ja "Samurai" <me>')
 				add_to_chat(158,'Fury Frailty Dia2')
+            elseif command == 'w1' then -- Warp Toggle --
+                    if Armor == 'Warp' then
+                            Armor = 'None'
+                            add_to_chat(123,'Warp Set: [Unlocked]')
+                    else
+                            Armor = 'Warp'
+                            add_to_chat(158,'Warp Set: [Locked]')
+                    end
+                    status_change(player.status)
+			elseif command == 'w2' then
+                send_command('input /item "Warp ring" <me>')
+                add_to_chat(158,'Using Warp Ring')
+           elseif command == 'mea1' then -- Mea Toggle --
+                    if Armor == 'Mea' then
+                            Armor = 'None'
+                            add_to_chat(123,'Mea Set: [Unlocked]')
+                    else
+                            Armor = 'Mea'
+                            add_to_chat(158,'Mea Set: [Locked]')
+                    end
+                    status_change(player.status)
+			elseif command == 'mea2' then
+                send_command('input /item "Dim. ring (mea)" <me>')
+                add_to_chat(158,'Using Mea Ring')	
