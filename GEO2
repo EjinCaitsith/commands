@@ -1,0 +1,84 @@
+		elseif command == 'water' then
+				send_command('input /ma "sleepga" <bt>; wait 4.5; input /ma "indi-malaise" <me>; wait 5; input /ma "fira III" <bt>')				
+				add_to_chat(158,'befouled water')
+		elseif command == 'b1' then
+				send_command('input /echo waiting; wait 6.5; input /ma "blizzard V" <bt>; wait 4.8; input /ma "blizzard IV" <bt>')				
+				add_to_chat(158,'blizz SC')
+		elseif command == 'b2' then
+				send_command('input /echo waiting; wait 6.5; input /ma "blizzard V" <bt>; wait 4.8; input /ma "blizzard IV" <bt>')				
+				add_to_chat(158,'blizz SC')
+		elseif command == 'f1' then
+				send_command('input /echo waiting; wait 5.5; input /ma "fire V" <bt>; wait 4.8; input /ma "fire IV" <bt>')				
+				add_to_chat(158,'fire SC')
+		elseif command == 'f2' then
+				send_command('input /echo waiting; wait 5.5; input /ma "fire V" <bt>; wait 4.8; input /ma "fire IV" <bt>')				
+				add_to_chat(158,'fire SC')
+		elseif command == 'a1' then
+				send_command('input /echo waiting; wait 5.5; input /ma "aero V" <bt>; wait 4.8; input /ma "aero IV" <bt>')				
+				add_to_chat(158,'aero SC')
+		elseif command == 'a2' then
+				send_command('input /echo waiting; wait 5.5; input /ma "aero V" <bt>; wait 4.8; input /ma "aero IV" <bt>')				
+				add_to_chat(158,'aero SC')
+		elseif command == 't1' then
+				send_command('input /echo waiting; wait 5.5; input /ma "thunder V" <bt>; wait 4.8; input /ma "thunder IV" <bt>')				
+				add_to_chat(158,'thunder SC')
+		elseif command == 't2' then
+				send_command('input /echo waiting; wait 5.5; input /ma "thunder V" <bt>; wait 4.8; input /ma "thunder IV" <bt>')				
+				add_to_chat(158,'thunder SC')
+		elseif command == 's1' then
+				send_command('input /echo waiting; wait 6.5; input /ma "stone V" <bt>; wait 4.8; input /ma "stone IV" <bt>')				
+				add_to_chat(158,'stone SC')
+		elseif command == 's2' then
+				send_command('input /echo waiting; wait 6.5; input /ma "stone V" <bt>; wait 4.8; input /ma "stone IV" <bt>')				
+				add_to_chat(158,'stone SC')
+		elseif command == 'wa1' then
+				send_command('input /echo waiting; wait 6.5; input /ma "water V" <bt>; wait 4.8; input /ma "water IV" <bt>')				
+				add_to_chat(158,'water SC')
+		elseif command == 'wa2' then
+				send_command('input /echo waiting; wait 6.5; input /ma "water V" <bt>; wait 4.8; input /ma "water IV" <bt>')				
+				add_to_chat(158,'water SC')
+		elseif command == 'ele' then
+				send_command('input /ma "indi-focus" <me>; wait 4; input /ma "geo-haste" <me>')
+				add_to_chat(158,'macc+haste')
+		elseif command == 'fc' then
+				send_command('input /ja "full circle" <me>')
+				add_to_chat(158,'fc')
+		elseif command == 'ra' then
+				send_command('input /ja "radial arcana" <me>')
+				add_to_chat(158,'radial')		
+    elseif command == 'ele2' then
+				send_command('input /ma "indi-malaise" <me>')
+				add_to_chat(158,'mdef down')
+		elseif command == 'entry' then
+				send_command('input /ma "indi-malaise" <me>')
+				add_to_chat(158,'mdef down')
+		elseif command == 'perf' then
+				send_command('input /ma "indi-refresh" <me>; wait 4; input /ja "blaze of glory" <me>; wait 1; input /ma "geo-malaise" <bt>; wait 4; input /ja dematerialize <me>; wait 2; input /ja "ecliptic attrition" <me>; wait 2; input /ja "life cycle" <me>')
+				add_to_chat(158,'perf bubbles')
+		elseif command == 'plouton' then
+				send_command('input /ma "indi-acumen" <me>; wait 4; input /ma "geo-vex" <bt>; wait 5; input /ja entrust <me>; wait 2; input /ma "indi-haste" irritant')
+				add_to_chat(158,'plouton bubbles')
+			elseif command == 'warp2' then
+                send_command('input /ma "indi-haste" <me>; wait 4; input /ma "warp II" ejiin; wait 6; input /ma "warp II" irritant; wait 6; input /ma "warp II" shred; wait 6; input /ma "warp II" yarhi; wait 6; input /ma warp <me>')
+                add_to_chat(158,'warp')
+		elseif command == 'umbril' then
+				send_command('input /ma "indi-haste" <me>; wait 4; input /ma "geo-malaise" <bt>')
+				add_to_chat(158,'umbril bubbles')
+		elseif command == 'pixie' then
+				send_command('input /ma "indi-frailty" <me>; wait 4; input /ma "geo-fury" <me>')
+				add_to_chat(158,'pixie bubbles')
+		elseif command == 'bogmal' then
+				send_command('input /ja "blaze of glory" <me>; wait 1; input /ma "geo-malaise" <bt>; wait 4; input /ja dematerialize <me>; wait 2; input /ja "ecliptic attrition" <me>; wait 2; input /ja "life cycle" <me>')
+				add_to_chat(158,'BoG malaise')
+		elseif command == 'bogfrail' then
+				send_command('input /ja "blaze of glory" <me>; wait 1; input /ma "geo-frailty" <bt>; wait 4; input /ja dematerialize <me>; wait 2; input /ja "ecliptic attrition" <me>; wait 2; input /ja "life cycle" <me>')
+				add_to_chat(158,'BoG frailty')	
+		elseif command == 'fomor' then
+				send_command('input /ma "indi-wilt" <me>; wait 5; input /ja "blaze of glory" <me>; wait 1; input /ma "geo-frailty" <bt>; wait 4; input /ja dematerialize <me>; wait 2; input /ja "ecliptic attrition" <me>; wait 2; input /ja "life cycle" <me>')
+				add_to_chat(158,'BoG frailty/wilt')
+			elseif command == 'unfol' then
+                send_command('setkey numpad7 down;wait 0.1;setkey numpad7 up')
+                add_to_chat(158,'unfollow')
+		elseif command == 'paxa' then
+				send_command('input /ma "indi-vex" <me>; wait 4; input /ma "geo-attunement" <me>; wait 4; input /ja entrust <me>; wait 2; input /ma "indi-haste" ejiin')
+				add_to_chat(158,'paxa bubbles')
