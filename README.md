@@ -2,7 +2,7 @@
 This currently does not work with Mote's Gearswaps.
 This does work with https://github.com/Selindrile/GearSwap but needs a different format like this:
 
-function job_self_command(commandArgs, eventArgs)
+user_job_self_command(commandArgs, eventArgs)
    if commandArgs:get(1) == 'unfol' 
         then send_command('setkey numpad7 down;wait 0.1;setkey numpad7 up') 
         add_to_chat(158,'unfollow')
