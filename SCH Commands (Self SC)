@@ -28,54 +28,6 @@
 			elseif command == 'warp' then
                 send_command('input //gs c w1; wait 10; input //gs c w2; wait 10; input //gs c w1')
                 add_to_chat(158,'Warp Ring')				
-			elseif command == 'rad' then
-                send_command('input /echo waiting; wait 1.5; input //temps buy radialens')
-                add_to_chat(158,'Radialens')
-			elseif command == 'Mhaura' then
-                send_command('input /echo waiting; wait 1.5; input //hp warp Mhaura 1')
-                add_to_chat(158,'Mhaura 1')
-			elseif command == 'pwin3' then
-                send_command('input /echo waiting; wait 1.5; input //hp warp Port Windurst 3')
-                add_to_chat(158,'Port Windurst 3')
-			elseif command == 'fei2' then
-                send_command('input /echo waiting; wait 1.5; input //hp warp Fei\'Yin 2')
-                add_to_chat(158,'FeiYin 2')
-			elseif command == 'ww1' then
-                send_command('input /echo Waiting; wait 1.5; input //hp warp Windurst Walls 1')
-                add_to_chat(158,'Windurst Walls 1')
-			elseif command == 'ww2' then
-                send_command('input /echo Waiting; wait 1.5; input //hp warp Windurst Walls 2')
-                add_to_chat(158,'Windurst Walls 2')
-			elseif command == 'ww3' then
-                send_command('input /echo Waiting; wait 1.5; input //hp warp Windurst Walls 3')
-                add_to_chat(158,'Windurst Walls 3')
-			elseif command == 'waters2' then
-                send_command('input /ech Waiting; wait 1.5; input //hp warp Windurst Waters 2')
-                add_to_chat(158,'Windurst Waters 2')
-			elseif command == 'waters3' then
-                send_command('input /ech Waiting; wait 1.5; input //hp warp Windurst Waters 3')
-                add_to_chat(158,'Windurst Waters 3')
-			elseif command == 'woods2' then
-                send_command('input /ech Waiting; wait 1.5; input //hp warp Windurst Woods 2')
-                add_to_chat(158,'Windurst Woods 2')
-			elseif command == 'wado1' then                
-				send_command('input /echo Waiting; wait 1.5; input //hp warp Western Adoulin 1')
-                add_to_chat(158,'Western Adoulin 1')
-			elseif command == 'wado2' then
-                send_command('input /echo Waiting; wait 1.5; input //hp warp Western Adoulin 2')
-                add_to_chat(158,'Western Adoulin 2')
-			elseif command == 'eado1' then
-                send_command('input /echo Waiting; wait 1.5; input //hp warp Eastern Adoulin 1')
-                add_to_chat(158,'Eastern Adoulin 1')
-			elseif command == 'eado2' then
-                send_command('input /echo Waiting; wait 1.5; input //hp warp Eastern Adoulin 2')
-                add_to_chat(158,'Eastern Adoulin 2')
-			elseif command == 'leaf' then
-                send_command('input /echo Waiting; wait 1.5; input //hp warp Leafallia 1')
-                add_to_chat(158,'Leafy City')
-			elseif command == 'misa' then
-                send_command('input /echo Waiting; wait 1.5; input //hp warp Misareaux Coast 1')
-                add_to_chat(158,'Misareaux Coast')	
 			elseif command == 'unfol' then
                 send_command('setkey numpad7 down;wait 0.1;setkey numpad7 up')
                 add_to_chat(158,'unfollow')				
